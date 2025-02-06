@@ -7,12 +7,6 @@
   --white: #fff;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 a {
   color: inherit;
 }
@@ -21,4 +15,10 @@ img,
 video {
   display: block;
   max-width: 100%;
+}
+
+body {
+  color: var(--dark-blue, #005564);
+  font-family: "Francois One";
+  text-align: center;
 }
